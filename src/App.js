@@ -3,9 +3,9 @@ import Parent from './Parent';
 import ValueContext from './ValueContext'
 
 function App() {
-  //let [number, setnumber] = useState(45)
+  let value = useState(45)
   return (
-    <ValueContext.Provider value = {78}>
+    <ValueContext.Provider value = {value}>
     <div>
       <Parent></Parent>
     

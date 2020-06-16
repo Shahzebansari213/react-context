@@ -5,6 +5,7 @@ function Child() {
     return (
       <div>
         child age is {value}
+        <button onClick = {()=>{value[1](++value[0])}}>Increase age</button>
       </div>
     );
   }
